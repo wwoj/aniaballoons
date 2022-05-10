@@ -1,6 +1,9 @@
 import React from 'react';
-import MainPhoto from '../Pictures/1.JPG'
+
+import MainPhoto from '../Pictures/1-zolty.JPG'
+
 import backgroundText from '../Pictures/backgroundText.jpg'
+
 
 import BallonsContainer from '../Components/TableBallons';
 
@@ -22,6 +25,7 @@ const home = (props)=>{
         </div>
         <BallonsContainer/>
         <div>Container for the vew picture in small boxes</div>
+        
       </section>
     );
 }

@@ -1,9 +1,11 @@
 .home-container
 {
+
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+
     div:first-child{
         
     }
@@ -15,6 +17,7 @@
     height: 400px;
     overflow: hidden;
 }
+
 .home-text{
     font-size: 1.3rem;
     font-weight: 400;
@@ -45,3 +48,4 @@
 .w-85{
 width: 85%;
 }
+
