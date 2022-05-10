@@ -10,6 +10,7 @@ import History from './Views/history';
 import Contact from './Views/contact';
 // Import Components:
 import Header from './Components/navbar';
+import Footer from './Components/footer';
 import { useTranslation } from 'react-i18next';
 
 const options = [
@@ -53,7 +54,8 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </HashRouter>
-      <section>Footer</section>
+      <div className='do-skasowania-caly-div'></div>
+      <section><Footer/></section>
     </div>
   );
 }

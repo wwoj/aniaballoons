@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPhoto from '../Pictures/1.JPG'
+import MainPhoto from '../Pictures/1-zolty.JPG'
 
 const home = ()=>{
     return (
@@ -9,6 +9,7 @@ const home = ()=>{
         </div>
         <div>Container for the text from Anna</div>
         <div>Container for the vew picture in small boxes</div>
+        
       </section>
     );
 }
