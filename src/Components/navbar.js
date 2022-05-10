@@ -5,29 +5,43 @@ import AniasBalloonLogo from '../Pictures/AniaBalloons_Logo.png'
 const header =(props)=>{
     
     return (
-      <div>
-      <div>{props.t("WelcomeText")}</div>
-
-        <ul>
+      <section className="navbar-container ds-flex-sb">
+        <ul className="navbar-list">
           <li>
             <NavLink activeclassname="test" className="" end to="/">
-            <img src={AniasBalloonLogo} alt="Anias Balloon Logo image"/>
+              <img
+                className="logo-size"
+                src={AniasBalloonLogo}
+                alt="Anias Balloon Logo image"
+              />
             </NavLink>
           </li>
-          <li>
+        </ul>
+        <ul
+          className="navbar-list ds-flex-sb"
+          onChange={(e) => {
+            let language = e.target.value.toLowerCase();
+            props.i18n.changeLanguage(language);
+          }}
+        >
+          <li className="nav-button">
             <NavLink activeclassname="test" className="" end to="/history">
               {props.t("PageHistory")}
             </NavLink>
           </li>
-          <li>
+          <li className="nav-button">
             <NavLink activeclassname="test" className="" end to="/contact">
-            {props.t("PageContact")}
-
+              {props.t("PageContact")}
             </NavLink>
           </li>
-          <li>Switch</li>
+          <li>
+            <select>
+              <option>EN</option>
+              <option>PL</option>
+            </select>
+          </li>
         </ul>
-      </div>
+      </section>
     );
 }
 export default header;

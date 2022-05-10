@@ -1,0 +1,47 @@
+.navbar-list
+{
+    list-style: none;
+    li{
+        padding: 5px 25px 5px 25px;
+        text-decoration: none;
+
+    }
+}
+ul{
+    padding: 0;
+}
+.navbar-container{
+    
+    padding: 10px 0 10px 0;
+    width: 90%;
+    // background: red;
+    margin: auto;
+    align-items: center;
+    border-bottom: 2px #a891ab solid;;
+}
+.logo-size{
+    width: 250px;
+}
+.ds-flex-sb{
+    display: flex;
+    justify-content: space-between;
+}
+select::-ms-expand {
+    display: none;
+}
+.navbar-list .nav-button a,.navbar-list  select {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #a18aa8;
+    border: none;
+}
+.navbar-list .nav-button a.active{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #a271b1;
+}
+select:focus, select:active{
+    border: none;
+}

@@ -1,5 +1,7 @@
 
 import './App.css';
+import "./Styles/main.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Import libraries
 import { HashRouter,Route, Routes } from 'react-router-dom';
 // Import views:
@@ -20,9 +22,9 @@ function App() {
   const {t,i18n} = useTranslation();
   return (
     <div className="App">
-      <div>{t("WelcomeText")}</div>
+      
       <div>
-        <button
+        {/* <button
           onClick={(language) => {
             language = "en";
             console.log(language);
@@ -39,24 +41,11 @@ function App() {
           }}
         >
           Polish
-        </button>
-        <button
-          onClick={() => {
-            document.cookie = "Test me";
-          }}
-        >
-          Test me
-        </button>
-        <button
-          onClick={() => {
-            document.cookie = "Test me";
-          }}
-        >
-          Test me1
-        </button>
+        </button> */}
+      
       </div>
       <HashRouter>
-        <Header t={t} />
+        <Header t={t} i18n={i18n} />
 
         <Routes>
           <Route exact path="/" element={<Home />} />
