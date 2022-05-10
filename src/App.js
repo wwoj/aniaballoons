@@ -48,9 +48,9 @@ function App() {
         <Header t={t} i18n={i18n} />
 
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/history" element={<History />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/" element={<Home t={t} />} />
+          <Route exact path="/history" element={<History t={t}/>} />
+          <Route exact path="/contact" element={<Contact t={t}/>} />
         </Routes>
       </HashRouter>
       <section>Footer</section>
