@@ -7,6 +7,8 @@ import { HashRouter,Route, Routes } from 'react-router-dom';
 // Import views:
 import Home from './Views/home';
 import History from './Views/history';
+import GalleryWalls from './Views/galeryWalls';
+import GalleryBallons from './Views/galleryBallons';
 import Contact from './Views/contact';
 // Import Components:
 import Header from './Components/navbar';
@@ -50,11 +52,13 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home t={t} />} />
-          <Route exact path="/history" element={<History t={t}/>} />
+          <Route exact path="/gallerywalls" element={<GalleryWalls t={t}/>} />
+          <Route exact path="/galleryballoons" element={<GalleryBallons t={t}/>} />
+
           <Route exact path="/contact" element={<Contact t={t}/>} />
         </Routes>
       </HashRouter>
-      <div className='do-skasowania-caly-div'></div>
+      {/* <div className='do-skasowania-caly-div'></div> */}
       <section><Footer/></section>
     </div>
   );

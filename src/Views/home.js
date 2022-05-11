@@ -23,7 +23,9 @@ const home = (props)=>{
         <div className='ds-flex-sb'>
         <GaleryButton/>
         <GaleryButton/>
-
+        <div>
+          {/* <img src='../Pictures/Walls/wal_1.jpg' alt='testww'/> */}
+        </div>
         </div>
         <div>Container for the vew picture in small boxes</div>
       </section>
