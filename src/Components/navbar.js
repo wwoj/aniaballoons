@@ -24,9 +24,14 @@ const header =(props)=>{
             props.i18n.changeLanguage(language);
           }}
         >
+            <li className="nav-button">
+            <NavLink activeclassname="test" className="" end to="/balloons">
+              {props.t("PageBalloons")}
+            </NavLink>
+          </li>
           <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/history">
-              {props.t("PageHistory")}
+            <NavLink activeclassname="test" className="" end to="/walls">
+              {props.t("PageWalls")}
             </NavLink>
           </li>
           <li className="nav-button">

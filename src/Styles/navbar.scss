@@ -1,3 +1,16 @@
+.navbar-container{
+    
+    padding: 25px 0 10px 0;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    ul{
+        margin: 0;
+    }
+    li{
+        font-size: 1.5rem;
+    }
+}
 .navbar-list
 {
     list-style: none;
@@ -6,20 +19,18 @@
         text-decoration: none;
 
     }
+    a:hover{
+        cursor: pointer;
+        text-decoration: underline !important;
+        // font-weight: 600;
+    }
+
 }
 ul{
     margin-top: 5px;
     padding: 0;
 }
-.navbar-container{
-    
-    padding: 10px 0 10px 0;
-    width: 90%;
-    // background: red;
-    margin: auto;
-    align-items: center;
-    border-bottom: 2px #a891ab solid;;
-}
+
 .logo-size{
     width: 250px;
 }
@@ -29,14 +40,14 @@ select::-ms-expand {
 }
 .navbar-list .nav-button a,.navbar-list  select {
     text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
+
+
     color: #a18aa8;
     border: none;
 }
 .navbar-list .nav-button a.active{
     text-decoration: none;
-    font-size: 2rem;
+ 
     font-weight: 600;
     color: #a271b1;
 }

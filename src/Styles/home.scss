@@ -14,6 +14,7 @@
     }
 }
 .home-img-container{
+    width: 80%;
     height: 400px;
     overflow: hidden;
     --mask: 
@@ -27,11 +28,17 @@
 
 
 .home-text{
-    font-size: 1.3rem;
-    font-weight: 400;
-    padding: 20px;
-    position: relative;
-    height: 400px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    background: #ededed;
+    background: linear-gradient(136deg, #fbf2b58c, transparent);
+    width: 80%;
+    font-size: 1.5rem;
+    
+  
 }
 .home-text-pos{
     position: absolute;
