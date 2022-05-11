@@ -16,7 +16,15 @@
 .home-img-container{
     height: 400px;
     overflow: hidden;
+    --mask: 
+  linear-gradient(#000 0 0) center/100% calc(100% - 40px) no-repeat,
+  radial-gradient(circle farthest-side,#000 98%,#0000) top/37.00px 40px repeat-x,
+  radial-gradient(circle farthest-side,#000 98%,#0000) bottom/37.00px 40px repeat-x;
+-webkit-mask: var(--mask);
+        mask: var(--mask);
 }
+       
+
 
 .home-text{
     font-size: 1.3rem;
