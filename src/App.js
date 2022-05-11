@@ -54,7 +54,7 @@ function App() {
           <Route exact path="/contact" element={<Contact t={t}/>} />
         </Routes>
       </HashRouter>
-      <div className='do-skasowania-caly-div'></div>
+      <div className='footer-cover'></div>
       <section><Footer/></section>
     </div>
   );
