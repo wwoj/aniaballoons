@@ -1,6 +1,8 @@
 import React from 'react';
 
-import MainPhoto from '../Pictures/1-zolty.JPG'
+// import MainPhoto from '../Pictures/1-zolty.JPG'
+import MainPhoto from '../Pictures/homepic.png'
+
 
 import backgroundText from '../Pictures/backgroundText.jpg'
 import GaleryButton from '../Components/galeryButton';

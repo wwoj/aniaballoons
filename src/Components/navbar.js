@@ -34,11 +34,7 @@ const header =(props)=>{
               {props.t("PageWalls")}
             </NavLink>
           </li>
-          <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/contact">
-              {props.t("PageContact")}
-            </NavLink>
-          </li>
+        
           <li>
             <select>
               <option>EN</option>
