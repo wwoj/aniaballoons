@@ -54,7 +54,7 @@ function App() {
           <Route exact path="/galleryballoons" element={<GalleryBallons t={t}/>} />
         </Routes>
       </HashRouter>
-      {/* <div className='do-skasowania-caly-div'></div> */}
+      <div className='footer-cover'></div>
       <section><Footer/></section>
     </div>
   );

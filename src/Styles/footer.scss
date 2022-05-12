@@ -1,4 +1,3 @@
-
 @import "variables.scss";
 
 
@@ -47,12 +46,9 @@ footer {
     display: block;
 }
 
-
 ul {
     padding-left: 0px;
 }
-
-
 
 .box {
     margin-bottom: 10px;
@@ -68,15 +64,10 @@ ul {
 
 span {
     margin-right: 5px;
-
-
 }
 
-a:hover {
-    background-color: linear-gradient(135deg, rgb(245, 255, 158), rgb(208, 255, 132), rgb(141, 246, 253)) !important;
-}
 
-a{
+a {
     text-decoration: none;
     color: $text-color;
 }
