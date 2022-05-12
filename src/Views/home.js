@@ -1,12 +1,15 @@
 import React from 'react';
 
-import MainPhoto from '../Pictures/1-zolty.JPG'
+// import MainPhoto from '../Pictures/1-zolty.JPG'
+import MainPhoto from '../Pictures/homepic.png'
+
 
 import backgroundText from '../Pictures/backgroundText.jpg'
 import GalleryButton from '../Components/galleryButton';
 
 
 import BallonsContainer from '../Components/TableBallons';
+
 
 const home = (props) => {
   return (
@@ -24,5 +27,6 @@ const home = (props) => {
       <GalleryButton />
     </section>
   );
+
 }
 export default home;

@@ -25,20 +25,16 @@ const header =(props)=>{
           }}
         >
             <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/balloons">
+            <NavLink activeclassname="test" className="" end to="/galleryballoons">
               {props.t("PageBalloons")}
             </NavLink>
           </li>
           <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/walls">
+            <NavLink activeclassname="test" className="" end to="/gallerywalls">
               {props.t("PageWalls")}
             </NavLink>
           </li>
-          <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/contact">
-              {props.t("PageContact")}
-            </NavLink>
-          </li>
+        
           <li>
             <select>
               <option>EN</option>

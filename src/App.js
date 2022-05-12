@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter,Route, Routes } from 'react-router-dom';
 // Import views:
 import Home from './Views/home';
-import History from './Views/history';
-import Contact from './Views/contact';
+import GalleryWalls from './Views/galeryWalls';
+import GalleryBallons from './Views/galleryBallons';
 // Import Components:
 import Header from './Components/navbar';
 import Footer from './Components/footer';
@@ -50,8 +50,8 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home t={t} />} />
-          <Route exact path="/history" element={<History t={t}/>} />
-          <Route exact path="/contact" element={<Contact t={t}/>} />
+          <Route exact path="/gallerywalls" element={<GalleryWalls t={t}/>} />
+          <Route exact path="/galleryballoons" element={<GalleryBallons t={t}/>} />
         </Routes>
       </HashRouter>
       <div className='footer-cover'></div>
