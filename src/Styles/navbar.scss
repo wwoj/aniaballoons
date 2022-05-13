@@ -11,8 +11,17 @@
         font-size: 1.5rem;
     }
 }
+
+@media only screen and (max-width: 950px) {
+    .navbar-container li{
+        font-size: 1rem;
+
+    }
+  }
+
 .navbar-list
 {
+    align-items: center;
     list-style: none;
     li{
         padding: 5px 25px 5px 25px;
@@ -53,4 +62,28 @@ select::-ms-expand {
 }
 select:focus, select:active{
     border: none;
+}
+// NavbarSmall temporary css
+.navbar-small-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(209,214,217,0.95);
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    font-size: 1.5rem;
+    li:nth-child(odd) {
+        background-color: rgba(209,214,217,0.95);
+    }
+    li:nth-child(even) {
+        background-color: white;
+    }
+    li > div:hover{
+        cursor: pointer;
+        color: rgb(179, 119, 194);
+    }
+}
+.navbar-small-header{
+    padding: 10px;
 }

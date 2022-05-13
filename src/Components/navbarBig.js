@@ -8,7 +8,7 @@ const header =(props)=>{
       <section className="navbar-container ds-flex-sb">
         <ul className="navbar-list">
           <li>
-            <NavLink activeclassname="test" className="" end to="/">
+            <NavLink className="" end to="/">
               <img
                 className="logo-size"
                 src={AniasBalloonLogo}
@@ -25,16 +25,20 @@ const header =(props)=>{
           }}
         >
             <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/galleryballoons">
+            <NavLink className="" end to="/animalballoons">
               {props.t("PageBalloons")}
             </NavLink>
           </li>
           <li className="nav-button">
-            <NavLink activeclassname="test" className="" end to="/gallerywalls">
+            <NavLink className="" end to="/photobackdrops">
               {props.t("PageWalls")}
             </NavLink>
           </li>
-        
+          <li className="nav-button">
+            <NavLink className="" end to="/contact">
+              {props.t("PageContact")}
+            </NavLink>
+          </li>
           <li>
             <select>
               <option>EN</option>

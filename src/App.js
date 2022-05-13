@@ -6,10 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter,Route, Routes } from 'react-router-dom';
 // Import views:
 import Home from './Views/home';
-import GalleryWalls from './Views/galeryWalls';
+import GalleryWalls from './Views/galleryWalls';
 import GalleryBallons from './Views/galleryBallons';
+import Contact from './Views/contact';
+
 // Import Components:
-import Header from './Components/navbar';
+
+import HeaderMain from './Components/header';
 import Footer from './Components/footer';
 import { useTranslation } from 'react-i18next';
 
@@ -23,39 +26,20 @@ function App() {
   const {t,i18n} = useTranslation();
   return (
     <div className="App">
-      
-      <div>
-        {/* <button
-          onClick={(language) => {
-            language = "en";
-            console.log(language);
-            i18n.changeLanguage(language);
-          }}
-        >
-          English
-        </button>
-        <button
-          onClick={(language) => {
-            language = "pl";
-            console.log(language);
-            i18n.changeLanguage(language);
-          }}
-        >
-          Polish
-        </button> */}
-      
-      </div>
       <HashRouter>
-        <Header t={t} i18n={i18n} />
+
+        <HeaderMain t={t} i18n={i18n}/>
 
         <Routes>
           <Route exact path="/" element={<Home t={t} />} />
-          <Route exact path="/gallerywalls" element={<GalleryWalls t={t}/>} />
-          <Route exact path="/galleryballoons" element={<GalleryBallons t={t}/>} />
+          <Route exact path="/photobackdrops" element={<GalleryWalls t={t}/>} />
+          <Route exact path="/animalballoons" element={<GalleryBallons t={t}/>} />
+          <Route exact path="/contact" element={<Contact t={t}/>} />
+
         </Routes>
       </HashRouter>
       <div className='footer-cover'></div>
-      <section><Footer/></section>
+      <section><Footer t={t}/></section>
     </div>
   );
 }

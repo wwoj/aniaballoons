@@ -7,22 +7,26 @@ import MainPhoto3 from '../Pictures/bal_3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowLeft,faCircleArrowRight,faXmark } from '@fortawesome/free-solid-svg-icons'
 
+import Walls from '../Pictures/PictureWalls';
 
 
-const pictable = ['../Pictures/Walls/wal_1.jpg','../Pictures/Walls/wal_2.jpg','../Pictures/Walls/wal_3.jpg','../Pictures/Walls/wal_4.jpg'
-,'../Pictures/Walls/wal_5.jpg','../Pictures/Walls/wal_6.jpg','../Pictures/Walls/wal_7.jpg','../Pictures/Walls/wal_8.jpg','../Pictures/Walls/wal_9.jpg'
-,'../Pictures/Walls/wal_10.jpg']
+
 function GalleryWalls() {
   const [showGalery, setShowGalery] = useState(false);
   const [picId, setPictureId] = useState(0);
 
+  const wallBallons = Walls.map((x, i) => {
+    return (
+      <PictureCard
+        picture={x.obj}
+        alt={x.title}
+        id={i}
+        setShowGalery={setShowGalery}
+        setPictureId={setPictureId}
+      />
+    );
+  });
 
-  let finArray = pictable.map((x,i) => {
-    return <img src={x} alt="testww" data-id={i} />;
-  });
-  let finArray1 = pictable.map((x,i) => {
-    return <PictureCard picture={MainPhoto1} picAddress={x} id={i} setShowGalery={setShowGalery} setPictureId={setPictureId}/>;
-  });
   return (
     <div className="galery-page">
       <div
@@ -40,7 +44,7 @@ function GalleryWalls() {
         <div className='gallery-view-button-nav'
           onClick={() => {
             if (picId <= 0) {
-              setPictureId(pictable.length - 1);
+              setPictureId(Walls.length - 1);
             } else {
               setPictureId(picId - 1);
             }
@@ -49,11 +53,11 @@ function GalleryWalls() {
           <FontAwesomeIcon icon={faCircleArrowLeft} size="3x" />
         </div>
         <div className="galery-full-view-container">
-          <img src={pictable[picId]} alt="asd" />
+          <img src={Walls[picId].obj} alt={Walls[picId].title} />
         </div>
         <div className='gallery-view-button-nav'
           onClick={() => {
-            if (picId == pictable.length - 1) {
+            if (picId == Walls.length - 1) {
               setPictureId(0);
             } else {
               setPictureId(picId + 1);
@@ -64,7 +68,7 @@ function GalleryWalls() {
         </div>
       </div>
       
-      <div className="galery-container">{finArray1}</div>
+      <div className="galery-container">{wallBallons}</div>
     </div>
   );
 }

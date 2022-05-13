@@ -9,7 +9,7 @@ const PictureCard = (props)=>{
     return (
       <div className="card-picture">
         <div className="card-picture-container" data-id={props.id} onClick={clickPict} >
-            <img className='galery-picture' data-id={props.id} src={props.picAddress} alt='Ballon picture smaall'/>
+            <img className='galery-picture' data-id={props.id} src={props.picture} alt={props.alt}/>
         </div>
         
       </div>
