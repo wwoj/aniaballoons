@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aniaballoons/static/css/main.8deff01d.css",
-    "main.js": "/aniaballoons/static/js/main.5372a3e9.js",
+    "main.js": "/aniaballoons/static/js/main.caa9fb09.js",
     "static/js/787.cabf093e.chunk.js": "/aniaballoons/static/js/787.cabf093e.chunk.js",
     "static/media/bal_15.JPG": "/aniaballoons/static/media/bal_15.24560c1de2b6013b164a.JPG",
     "static/media/Wall_2.jpg": "/aniaballoons/static/media/Wall_2.e89205e63c1433c21896.jpg",
@@ -50,11 +50,11 @@
     "static/media/AniaBalloons_Logo.png": "/aniaballoons/static/media/AniaBalloons_Logo.a76bcf79e3dcc5bb888a.png",
     "index.html": "/aniaballoons/index.html",
     "main.8deff01d.css.map": "/aniaballoons/static/css/main.8deff01d.css.map",
-    "main.5372a3e9.js.map": "/aniaballoons/static/js/main.5372a3e9.js.map",
+    "main.caa9fb09.js.map": "/aniaballoons/static/js/main.caa9fb09.js.map",
     "787.cabf093e.chunk.js.map": "/aniaballoons/static/js/787.cabf093e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8deff01d.css",
-    "static/js/main.5372a3e9.js"
+    "static/js/main.caa9fb09.js"
   ]
 }
