@@ -69,7 +69,7 @@ const NavbarSmall =(props)=>{
             </li>
             <li>
               <select>
-                <option>EN</option>
+                <option>US</option>
                 <option>PL</option>
               </select>
             </li>
