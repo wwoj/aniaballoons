@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/aniaballoons/static/css/main.8deff01d.css",
-    "main.js": "/aniaballoons/static/js/main.9d565282.js",
+    "main.css": "/aniaballoons/static/css/main.621ffdb0.css",
+    "main.js": "/aniaballoons/static/js/main.df42d13c.js",
     "static/js/787.cabf093e.chunk.js": "/aniaballoons/static/js/787.cabf093e.chunk.js",
     "static/media/bal_15.JPG": "/aniaballoons/static/media/bal_15.24560c1de2b6013b164a.JPG",
     "static/media/Wall_2.jpg": "/aniaballoons/static/media/Wall_2.e89205e63c1433c21896.jpg",
     "static/media/bal_3.JPG": "/aniaballoons/static/media/bal_3.859eefddfae23120e281.JPG",
+    "static/media/Button_2PL.png": "/aniaballoons/static/media/Button_2PL.53b26926c4229ecae0f4.png",
+    "static/media/Button_2EN.png": "/aniaballoons/static/media/Button_2EN.3445e7fecae03961c710.png",
     "static/media/Wall_1.jpg": "/aniaballoons/static/media/Wall_1.2f04bfb09668e70fc1c8.jpg",
-    "static/media/1-eng.png": "/aniaballoons/static/media/1-eng.cabec164145e3b1d2420.png",
     "static/media/bal_21.JPG": "/aniaballoons/static/media/bal_21.0f6507a77fa121bf74d1.JPG",
     "static/media/bal_16.JPG": "/aniaballoons/static/media/bal_16.575bbc1dae55f18461aa.JPG",
     "static/media/bal_5.JPG": "/aniaballoons/static/media/bal_5.e60eefa04530ee81afe1.JPG",
+    "static/media/Button_1PL.png": "/aniaballoons/static/media/Button_1PL.72b98575f72be12484cf.png",
+    "static/media/Button_1EN.png": "/aniaballoons/static/media/Button_1EN.fa79541864c4c77f9544.png",
     "static/media/bal_22.JPG": "/aniaballoons/static/media/bal_22.e4282f2d6649c858630c.JPG",
     "static/media/bal_24.JPG": "/aniaballoons/static/media/bal_24.b338447d007d52d4bad7.JPG",
     "static/media/bal_13.JPG": "/aniaballoons/static/media/bal_13.cb58d2332f775965be58.JPG",
@@ -26,7 +29,6 @@
     "static/media/bal_1.JPG": "/aniaballoons/static/media/bal_1.f1e708e09b073f6dec5e.JPG",
     "static/media/bal_18.JPG": "/aniaballoons/static/media/bal_18.422afc1fcadd1418c67b.JPG",
     "static/media/bal_20.JPG": "/aniaballoons/static/media/bal_20.ccb6caf7d247df3a51bb.JPG",
-    "static/media/2-eng.png": "/aniaballoons/static/media/2-eng.ceef739e230d55b9434e.png",
     "static/media/Wall_10.jpg": "/aniaballoons/static/media/Wall_10.1ba72b910576d393d2fe.jpg",
     "static/media/Wall_8.jpg": "/aniaballoons/static/media/Wall_8.d95a08317526f6e9f097.jpg",
     "static/media/Wall_9.jpg": "/aniaballoons/static/media/Wall_9.ce32d7790f78c7e76eb2.jpg",
@@ -35,6 +37,7 @@
     "static/media/Wall_6.jpg": "/aniaballoons/static/media/Wall_6.688270a0ea5ba481ef1f.jpg",
     "static/media/bal_6.jpg": "/aniaballoons/static/media/bal_6.f2cae41e83b1baea102f.jpg",
     "static/media/Wall_3.jpg": "/aniaballoons/static/media/Wall_3.c99968e66b59d39df1e2.jpg",
+    "static/media/homepic_2.JPG": "/aniaballoons/static/media/homepic_2.a655020dd6418e59b527.JPG",
     "static/media/homepic.png": "/aniaballoons/static/media/homepic.98c09c16a0c8a1daa7b1.png",
     "static/media/bal_9.jpg": "/aniaballoons/static/media/bal_9.fb9d812a8047bd918ee5.jpg",
     "static/media/Wall_5.jpg": "/aniaballoons/static/media/Wall_5.7e084ac04907bdb04042.jpg",
@@ -49,12 +52,12 @@
     "static/media/bal_6.png": "/aniaballoons/static/media/bal_6.18398f85a670f0c7be07.png",
     "static/media/AniaBalloons_Logo.png": "/aniaballoons/static/media/AniaBalloons_Logo.a76bcf79e3dcc5bb888a.png",
     "index.html": "/aniaballoons/index.html",
-    "main.8deff01d.css.map": "/aniaballoons/static/css/main.8deff01d.css.map",
-    "main.9d565282.js.map": "/aniaballoons/static/js/main.9d565282.js.map",
+    "main.621ffdb0.css.map": "/aniaballoons/static/css/main.621ffdb0.css.map",
+    "main.df42d13c.js.map": "/aniaballoons/static/js/main.df42d13c.js.map",
     "787.cabf093e.chunk.js.map": "/aniaballoons/static/js/787.cabf093e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8deff01d.css",
-    "static/js/main.9d565282.js"
+    "static/css/main.621ffdb0.css",
+    "static/js/main.df42d13c.js"
   ]
 }
