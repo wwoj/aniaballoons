@@ -12,7 +12,7 @@ const Footer = (props) => {
         <footer className="box two good">
             <ul className="inner-footer">
                 <li>
-                    <ul>
+                    <ul style={{display:"none"}}>
                         <li className="column-head">{props.t("footer_Help")}</li>
                         <li>{props.t("footer_Cookies")}</li>
                         <li>{props.t("footer_Statute")}</li>
@@ -21,8 +21,8 @@ const Footer = (props) => {
                 <li>
                     <ul>
                         <li className="column-head">{props.t("footer_Contact")}</li>
-                        <li>aaaaa@gmail.com</li>
-                        <li>019-0000-000</li>
+                        <li><a href="mailto:azygmunt@att.net">azygmunt@att.net</a></li>
+                        <li> <a href='tel:+1(630)-290-8175'>+1(630)-290-8175</a></li>
                     </ul>
                 </li>
                 <li>

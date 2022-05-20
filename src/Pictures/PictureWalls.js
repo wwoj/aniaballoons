@@ -1,13 +1,13 @@
-import Wall_1 from './Walls/Wall_1.jpg';
-import Wall_2 from './Walls/Wall_2.jpg';
-import Wall_3 from './Walls/Wall_3.jpg';
-import Wall_4 from './Walls/Wall_4.jpg';
-import Wall_5 from './Walls/Wall_5.jpg';
-import Wall_6 from './Walls/Wall_6.jpg';
-import Wall_7 from './Walls/Wall_7.jpg';
-import Wall_8 from './Walls/Wall_8.jpg';
-import Wall_9 from './Walls/Wall_9.jpg';
-import Wall_10 from './Walls/Wall_10.jpg';
+import Wall_1 from './Walls/Wall_1.JPG';
+import Wall_2 from './Walls/Wall_2.JPG';
+import Wall_3 from './Walls/Wall_3.JPG';
+import Wall_4 from './Walls/Wall_4.JPG';
+import Wall_5 from './Walls/Wall_5.JPG';
+import Wall_6 from './Walls/Wall_6.JPG';
+import Wall_7 from './Walls/Wall_7.JPG';
+import Wall_8 from './Walls/Wall_8.JPG';
+import Wall_9 from './Walls/Wall_9.JPG';
+import Wall_10 from './Walls/Wall_10.JPG';
 
 
 

@@ -4,9 +4,9 @@ import english from './english.json';
 import polish from './polish.json';
 
 i18next.use(initReactI18next).init({
-    lng:"en",
+    lng:"us",
     resources:{
-        en:english,
+        us:english,
         pl:polish
     },
     react:{

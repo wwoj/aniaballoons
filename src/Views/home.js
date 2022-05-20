@@ -1,21 +1,17 @@
 import React from 'react';
 
-// import MainPhoto from '../Pictures/1-zolty.JPG'
-import MainPhoto from '../Pictures/homepic.png'
-
-
-import backgroundText from '../Pictures/backgroundText.jpg'
 import GalleryButton from '../Components/galleryButton';
 
+import Carousel1 from '../Components/carouser';
 
-import BallonsContainer from '../Components/TableBallons';
 
 
-const home = (props) => {
+const Home = (props) => {
   return (
     <section className="home-container">
-      <div className="ds-flex-sb home-img-container align-center">
-        <img className="w-100" src={MainPhoto} alt="Home picture" />
+      <div style={{width:"100%"}} >
+        {/* <img className="w-100" src={MainPhoto} alt="Home picture" /> */}
+        <Carousel1 t={props.t} />
       </div>
 
       <div className="home-text">
@@ -24,9 +20,9 @@ const home = (props) => {
         <p>{props.t("HomeText3")}</p>
         <p>{props.t("HomeText4")}</p>
       </div>
-      <GalleryButton />
+      <GalleryButton  t={props.t} i18n={props.i18n}/>
     </section>
   );
 
 }
-export default home;
+export default Home;

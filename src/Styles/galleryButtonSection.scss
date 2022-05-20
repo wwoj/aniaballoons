@@ -1,12 +1,14 @@
 .gallery-buttons-section {
     width: 80%;
-    height: 500px;
+    // height: 500px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
     .gallery-button {
-
+        min-width: 300px;
         width: 40%;
+        padding: 5px;
 
         img {
             max-width: 100%;
