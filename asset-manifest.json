@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/aniaballoons/static/css/main.322c9f45.css",
-    "main.js": "/aniaballoons/static/js/main.cf8ef5b5.js",
+    "main.css": "/aniaballoons/static/css/main.55365ddc.css",
+    "main.js": "/aniaballoons/static/js/main.f32ece9a.js",
     "static/js/787.cabf093e.chunk.js": "/aniaballoons/static/js/787.cabf093e.chunk.js",
     "static/media/Button_2PL.png": "/aniaballoons/static/media/Button_2PL.2d50571c815241b94aff.png",
     "static/media/Button_2EN.png": "/aniaballoons/static/media/Button_2EN.949c4c3f361fd400904a.png",
     "static/media/Button_1PL.png": "/aniaballoons/static/media/Button_1PL.cb7a7f082fc06a124fa1.png",
     "static/media/Button_1EN.png": "/aniaballoons/static/media/Button_1EN.ed36b869c6fcbe8a9bfa.png",
+    "static/media/1.JPG": "/aniaballoons/static/media/1.d59f1d670478d4c3c7e3.JPG",
     "static/media/homepic_2.JPG": "/aniaballoons/static/media/homepic_2.a655020dd6418e59b527.JPG",
     "static/media/homepic.png": "/aniaballoons/static/media/homepic.98c09c16a0c8a1daa7b1.png",
     "static/media/bal_9.JPG": "/aniaballoons/static/media/bal_9.872895545c64a08bb858.JPG",
@@ -48,12 +49,12 @@
     "static/media/bal_3.png": "/aniaballoons/static/media/bal_3.0e1acdd37ada5e10213d.png",
     "static/media/AniaBalloons_Logo.png": "/aniaballoons/static/media/AniaBalloons_Logo.a76bcf79e3dcc5bb888a.png",
     "index.html": "/aniaballoons/index.html",
-    "main.322c9f45.css.map": "/aniaballoons/static/css/main.322c9f45.css.map",
-    "main.cf8ef5b5.js.map": "/aniaballoons/static/js/main.cf8ef5b5.js.map",
+    "main.55365ddc.css.map": "/aniaballoons/static/css/main.55365ddc.css.map",
+    "main.f32ece9a.js.map": "/aniaballoons/static/js/main.f32ece9a.js.map",
     "787.cabf093e.chunk.js.map": "/aniaballoons/static/js/787.cabf093e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.322c9f45.css",
-    "static/js/main.cf8ef5b5.js"
+    "static/css/main.55365ddc.css",
+    "static/js/main.f32ece9a.js"
   ]
 }
