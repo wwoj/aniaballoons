@@ -9,17 +9,15 @@
     justify-content: center;
     height: 100%;
     max-width: 100%;    
-    img{
-        width: auto !important;
-        height: 100%;
-    }
-}
-.TEstCont{
-    display: flex;  
-    justify-content: center;
-    height: 100%;
+    
 }
 .carousel-caption{
     background: #fffbfbab;
     border-radius: 15px;
+}
+.carousel-control-next
+{
+    span{
+        margin: 0;
+    }
 }

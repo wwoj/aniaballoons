@@ -2,10 +2,10 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 
-import PictureUS_1 from '../Pictures/Button_1EN.JPG'
-import PicturePL_1 from '../Pictures/Button_1PL.JPG'
-import PictureUS_2 from '../Pictures/Button_2EN.JPG'
-import PicturePL_2 from '../Pictures/Button_2PL.JPG'
+import PictureUS_1 from '../Pictures/Button_1EN.png'
+import PicturePL_1 from '../Pictures/Button_1PL.png'
+import PictureUS_2 from '../Pictures/Button_2EN.png'
+import PicturePL_2 from '../Pictures/Button_2PL.png'
 import '../Styles/galleryButtonSection.scss';
 
 const GalleryButton = (props) => {

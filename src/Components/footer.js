@@ -11,13 +11,7 @@ const Footer = (props) => {
     return (
         <footer className="box two good">
             <ul className="inner-footer">
-                <li>
-                    <ul style={{display:"none"}}>
-                        <li className="column-head">{props.t("footer_Help")}</li>
-                        <li>{props.t("footer_Cookies")}</li>
-                        <li>{props.t("footer_Statute")}</li>
-                    </ul>
-                </li>
+              
                 <li>
                     <ul>
                         <li className="column-head">{props.t("footer_Contact")}</li>
@@ -35,6 +29,9 @@ const Footer = (props) => {
                     </ul>
                 </li>
             </ul>
+            <div className='ds-flex-end align-center footer-creator'>
+                <span>Created by wojcik.wojciechp@gmail.com</span>
+            </div>
         </footer>
 
     );

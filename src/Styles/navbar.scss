@@ -18,7 +18,12 @@
 
     }
   }
-
+  @media only screen and (max-width: 400px) {
+    img.logo-size{
+        width: 80%;
+        min-width: 150px;
+    }
+  }
 .navbar-list
 {
     align-items: center;
