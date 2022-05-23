@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aniaballoons/static/css/main.d7eb3bad.css",
-    "main.js": "/aniaballoons/static/js/main.2c744fbb.js",
-    "static/js/787.cabf093e.chunk.js": "/aniaballoons/static/js/787.cabf093e.chunk.js",
+    "main.js": "/aniaballoons/static/js/main.1f454fce.js",
+    "static/js/787.3b3f3fb5.chunk.js": "/aniaballoons/static/js/787.3b3f3fb5.chunk.js",
     "static/media/Button_2PL.png": "/aniaballoons/static/media/Button_2PL.2d50571c815241b94aff.png",
     "static/media/Button_2EN.png": "/aniaballoons/static/media/Button_2EN.949c4c3f361fd400904a.png",
     "static/media/Button_1PL.png": "/aniaballoons/static/media/Button_1PL.cb7a7f082fc06a124fa1.png",
@@ -50,11 +50,11 @@
     "static/media/AniaBalloons_Logo.png": "/aniaballoons/static/media/AniaBalloons_Logo.a76bcf79e3dcc5bb888a.png",
     "index.html": "/aniaballoons/index.html",
     "main.d7eb3bad.css.map": "/aniaballoons/static/css/main.d7eb3bad.css.map",
-    "main.2c744fbb.js.map": "/aniaballoons/static/js/main.2c744fbb.js.map",
-    "787.cabf093e.chunk.js.map": "/aniaballoons/static/js/787.cabf093e.chunk.js.map"
+    "main.1f454fce.js.map": "/aniaballoons/static/js/main.1f454fce.js.map",
+    "787.3b3f3fb5.chunk.js.map": "/aniaballoons/static/js/787.3b3f3fb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7eb3bad.css",
-    "static/js/main.2c744fbb.js"
+    "static/js/main.1f454fce.js"
   ]
 }
