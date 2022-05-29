@@ -3,7 +3,7 @@ import Wall_2 from './Walls/Wall_2.jpg';
 import Wall_3 from './Walls/Wall_3.jpg';
 import Wall_4 from './Walls/Wall_4.jpg';
 import Wall_5 from './Walls/Wall_5.jpg';
-import Wall_6 from './Walls/Wall_6.jpg';
+import Wall_6 from './Walls/Wall_7.jpg';
 import Wall_7 from './Walls/Wall_7.jpg';
 import Wall_8 from './Walls/Wall_8.jpg';
 import Wall_9 from './Walls/Wall_9.jpg';

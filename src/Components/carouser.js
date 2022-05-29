@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import MainPhoto_1_BIG from '../Pictures/homepic.png'
 import MainPhoto_2_BIG from '../Pictures/homepic_2.JPG'
 import MainPhoto_1_SMALL from '../Pictures/1.JPG'
-import MainPhoto_2_SMALL from '../Pictures/Walls/Wall_6.jpg'
+import MainPhoto_2_SMALL from '../Pictures/Walls/Wall_7.jpg'
 import Media from 'react-media';
 
 
