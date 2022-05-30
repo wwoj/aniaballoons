@@ -1,27 +1,27 @@
-import Ballon_1 from './Balloons/bal_1.JPG';
-import Ballon_2 from './Balloons/bal_2.JPG';
-import Ballon_3 from './Balloons/bal_3.JPG';
-import Ballon_4 from './Balloons/bal_4.JPG';
-import Ballon_5 from './Balloons/bal_5.JPG';
-import Ballon_6 from './Balloons/bal_6.JPG';
-import Ballon_7 from './Balloons/bal_7.JPG';
-import Ballon_8 from './Balloons/bal_8.JPG';
-import Ballon_9 from './Balloons/bal_9.JPG';
-import Ballon_10 from './Balloons/bal_10.JPG';
-import Ballon_11 from './Balloons/bal_11.JPG';
-import Ballon_12 from './Balloons/bal_12.JPG';
-import Ballon_13 from './Balloons/bal_13.JPG';
-import Ballon_14 from './Balloons/bal_14.JPG';
-import Ballon_15 from './Balloons/bal_15.JPG';
-import Ballon_16 from './Balloons/bal_16.JPG';
-import Ballon_17 from './Balloons/bal_17.JPG';
-import Ballon_18 from './Balloons/bal_18.JPG';
-import Ballon_19 from './Balloons/bal_19.JPG';
-import Ballon_20 from './Balloons/bal_20.JPG';
-import Ballon_21 from './Balloons/bal_21.JPG';
-import Ballon_22 from './Balloons/bal_22.JPG';
-import Ballon_23 from './Balloons/bal_23.JPG';
-import Ballon_24 from './Balloons/bal_24.JPG';
+import Ballon_1 from './Balloons/bal_1.png';
+import Ballon_2 from './Balloons/bal_2.png';
+import Ballon_3 from './Balloons/bal_3.png';
+import Ballon_4 from './Balloons/bal_4.png';
+import Ballon_5 from './Balloons/bal_5.png';
+import Ballon_6 from './Balloons/bal_6.png';
+import Ballon_7 from './Balloons/bal_7.png';
+import Ballon_8 from './Balloons/bal_8.png';
+import Ballon_9 from './Balloons/bal_9.png';
+import Ballon_10 from './Balloons/bal_10.png';
+import Ballon_11 from './Balloons/bal_11.png';
+import Ballon_12 from './Balloons/bal_12.png';
+import Ballon_13 from './Balloons/bal_13.png';
+import Ballon_14 from './Balloons/bal_14.png';
+import Ballon_15 from './Balloons/bal_15.png';
+import Ballon_16 from './Balloons/bal_16.png';
+import Ballon_17 from './Balloons/bal_17.png';
+import Ballon_18 from './Balloons/bal_18.png';
+import Ballon_19 from './Balloons/bal_19.png';
+import Ballon_20 from './Balloons/bal_20.png';
+import Ballon_21 from './Balloons/bal_21.png';
+import Ballon_22 from './Balloons/bal_22.png';
+// import Ballon_23 from './Balloons/bal_23.png';
+// import Ballon_24 from './Balloons/bal_24.png';
 
 
 
@@ -48,7 +48,7 @@ export default [
     {obj:Ballon_20,title:"Balloon_20"},
     {obj:Ballon_21,title:"Balloon_21"},
     {obj:Ballon_22,title:"Balloon_22"},
-    {obj:Ballon_23,title:"Balloon_23"},
-    {obj:Ballon_24,title:"Balloon_24"},
+    // {obj:Ballon_23,title:"Balloon_23"},
+    // {obj:Ballon_24,title:"Balloon_24"},
 
 ];
